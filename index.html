@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Hikari</title>
+
+  <link rel="shortcut icon" href="favicon.ico.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&display=swap" rel="stylesheet">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header id="inicio">
+    <nav id="menu">
+      <h1 style="cursor: pointer;">hikari</h1>
+      
+      <button id="btn_hamburguesa" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <ul>
+        <li><a href="#seccion_productos">Products</a></li>
+        <li><a href="#quienes_somos">Who we are</a></li>
+        <li><a href="#contacto">Contact</a></li>
+        <li>
+          <a href="https://www.instagram.com/estudio.hikari" target="_blank" class="instagram"
+            aria-label="Hikari Studio on Instagram"></a>
+        </li>
+        <li>
+          <a href="https://wa.me/5491134567890" target="_blank" class="whatsapp"
+            aria-label="Send WhatsApp to Hikari Studio"></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>        
+    <picture class="banner-central">
+      <img src="img/BANNER2.png"
+        alt="Images of Hikari products in real context such as living rooms and bedrooms - Table lamps, ceiling lamps and LED light bars">
+    </picture>
+
+    <section id="beneficios">
+      <div class="beneficio">
+        <div>
+          <h2>Free Shipping</h2>
+        </div>
+      </div>
+
+      <div class="beneficio">
+        <div>
+          <h2>3 and 6 interest-free installments</h2>
+          <p>3 installments on all products</p>
+          <p>6 installments on orders over $200,000</p>
+        </div>
+      </div>
+
+      <div class="beneficio">
+        <div>
+          <h2>Secure purchase</h2>
+          <p>We protect your data.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner_categorias">
+
+      <div class="banner_categoria" data-cat="Ceiling Lamps">
+        <img src="img/banner_plafon.jpg" alt="Ceiling lamps">
+        <h2>Ceiling Lamps</h2>
+      </div>
+      
+      <div class="banner_categoria" data-cat="LED Light Bars">
+        <img src="img/banner_barral.webp" alt="LED light bars">
+        <h2>LED Light Bars</h2>
+      </div>
+
+      <div class="banner_categoria" data-cat="Table Lamps">
+        <img src="img/banner_mesa.webp" alt="Table lamps">
+        <h2>Table Lamps</h2>
+      </div>
+
+    </section> 
+
+    <aside id="mini_carrito">
+      <p><span>0</span> items added</p>
+      <p>$<span>0</span> total</p>
+      <button>View cart</button>
+      <ul id="lista-carrito"></ul> 
+    </aside>
+
+    <section id="seccion_productos">
+      <h2>Products</h2>
+      <ul id="productos"></ul>
+    </section>
+
+    <section id="quienes_somos">
+      <h2>Who we are</h2>
+      <p>We are two friends who met while studying Industrial Design and share the same passion for objects that
+        transform spaces. That's how <span class="negrita">Estudio <span lang="ja">Hikari</span></span> was born:
+        <em>a project where design and emotion meet</em>.
+      </p>
+      <p><span class="negrita" lang="ja">Hikari</span> <em>means "light" in Japanese</em>, and for us it represents
+        much more than a physical element: <strong>it is energy, clarity, and that spark that transforms spaces into
+          living places.</strong>
+      </p>
+      <p><em>Every lamp we design is the result of a shared process of conversations, sketches, tests and learnings;
+          but above all, of a constant search to create objects that illuminate with soul.</em>
+      </p>
+    </section>
+
+    <section id="contacto">
+
+      <h2>Contact</h2>
+      <div class="contacto-contenedor">
+        <p>If you have any questions about our products, feel free to reach out.<br>
+          <strong>We'll help you find the perfect light for your space!</strong>
+        </p>
+      
+        <ul class="contacto-datos">
+          <li>
+            <a href="mailto:hikari.estudio@gmail.com" aria-label="Send email to Hikari Studio" class="mail"
+              target="_blank">hikari.estudio@gmail.com</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/estudio.hikari"
+              aria-label="Visit Hikari Studio on Instagram" class="instagram"
+              target="_blank">@estudio.hikari</a>
+          </li>
+
+          <li>
+            <a href="https://wa.me/5491134567890" aria-label="Send WhatsApp to Hikari Studio" class="whatsapp"
+              target="_blank">+54 9 11 3456-7890</a>
+          </li>
+
+          <li>
+            <a href="https://www.google.com/maps/place/Cuenca+2546,+C1417CTP+CABA,+Argentina"
+              aria-label="View Hikari Studio location" class="ubicacion" target="_blank">
+              Cuenca 2546, Villa del Parque
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <a href="#inicio" class="volver-inicio">Back to top</a>
+  </footer>
+
+</body>
+
+</html>
