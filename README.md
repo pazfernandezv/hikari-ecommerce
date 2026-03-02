@@ -1,4 +1,5 @@
 Hikari — Lighting Store
+--
 Hikari is a fictional online store for lamps and lighting products. It was my first JavaScript project, developed at Da Vinci School as part of my Web Design and Development technician program, in the Programming 1 course.
 
 Technologies Used
@@ -26,6 +27,6 @@ hikari/
 └── img/
     └── (product images)
 
-Made with argetinian mate🧉 and way too many hours wondering why the cart wasn't updating.
------------------------------------------------------------------------------------------------------------------------------
+Made with argentinian mate🧉 and way too many hours wondering why the cart wasn't updating.
+
 NOTES: some variable names and comments in the code are in Spanish, as this project was built while studying in a Spanish-speaking environment. Product images were sourced from https://www.caprichotm.com for educational purposes only. This is a non-commercial practice project and is not affiliated with or endorsed by Capricho in any way.
